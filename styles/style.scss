@@ -26,8 +26,7 @@ header {
     width: 3rem;
     margin-right: 1rem;
   }
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem;
 }
 
 nav {
@@ -46,6 +45,19 @@ nav {
 
         &:hover {
           background-color: #396b70;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 862px){
+  nav {
+    ul {
+      flex-direction: column;
+      li {
+        a {
+          padding: 1.1rem 67% 1.1rem 1.5rem;
         }
       }
     }
